@@ -34,6 +34,9 @@ For more details about the deterministic method, please refer to the our previou
 
 Compared to deterministic approaches, the Uncertainty-Aware Probabilistic Risk Distribution takes into account the uncertainties in the traffic environment. It aims to predict the risk distribution over a future time horizon $\Delta t$ based on a given time $t$.
 
+Trajectory Prediction
+![Framework](figure/single_252_time_result.gif)|![Framework](figure/multi_252_time_result.gif)
+
 ## Quick Start
 
 ### Prerequisites
@@ -83,12 +86,15 @@ Compared to deterministic approaches, the Uncertainty-Aware Probabilistic Risk D
         └── ...
         ```
 
-### Quick Start
+### Deterministic Method Quick Start
 
 1. Run the `quick_run.py` file:
     ```python
     python quick_run.py
     ```
+### Uncertainty-Aware Probabilistic Risk Distribution Method Quick Start
+
+Coming soon.
 
 ## Datasets
 
